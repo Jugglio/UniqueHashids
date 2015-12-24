@@ -4,9 +4,10 @@
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Software License][ico-license]](LICENSE.md)
 
-This is a simple trait for [Laravel](http://laravel.com) models to use to generate
+This is a simple trait for [Laravel](http://laravel.com) models to generate
 unique ids for them. It uses [vinkla](https://github.com/vinkla)'s wonderful
-[Hashids](https://github.com/vinkla/hashids) package to generate these ids.
+[Hashids](https://github.com/vinkla/hashids) package and is configurable within
+the model itself.
 
 ## Installation
 
