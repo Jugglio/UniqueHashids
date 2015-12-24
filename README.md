@@ -30,8 +30,8 @@ like so:
 ```php
 namespace App;
 
+use Juggl\UniqueHashids\GeneratesUnique;
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\GeneratesUnique;
 
 class YourModel extends Model
 {
@@ -48,8 +48,8 @@ static property `$findBy` on your model:
 ```php
 namespace App;
 
+use Juggl\UniqueHashids\GeneratesUnique;
 use Illuminate\Database\Eloquent\Model;
-use App\Traits\GeneratesUnique;
 
 class YourModel extends Model
 {
