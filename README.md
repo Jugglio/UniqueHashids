@@ -13,7 +13,7 @@ unique ids for them. It uses [vinkla](https://github.com/vinkla)'s wonderful
 You may install this package via [composer](http://getcomposer.org):
 
 ```bash
-$ composer require Juggl/UniqueHashids
+$ composer require juggl/unique-hashids
 ```
 
 ## Configuration

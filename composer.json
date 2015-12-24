@@ -1,5 +1,5 @@
 {
-    "name": "Juggl/UniqueHashids",
+    "name": "juggl/unique-hashids",
     "description": "Easily create unique ids for a Laravel model.",
     "keywords": [
         "unique id",
