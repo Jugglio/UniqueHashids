@@ -1,0 +1,28 @@
+{
+    "name": "Juggl/UniqueHashids",
+    "description": "Easily create unique ids for a Laravel model.",
+    "keywords": [
+        "unique id",
+        "unique",
+        "id",
+        "hashids",
+        "laravel"
+    ],
+    "homepage": "https://github.com/Jugglio/UniqueHashids",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Luijten",
+            "email": "svenluijten@outlook.com",
+            "homepage": "http://svenluijten.com"
+        }
+    ],
+    "require": {
+        "vinkla/hashids": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juggl\\UniqueHashids\\": "src/"
+        }
+    }
+}
