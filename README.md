@@ -68,12 +68,12 @@ package, found [here](https://github.com/vinkla/hashids).
 
 ## License
 
-`Juggl\UniqueHashids` is licenced under the MIT License (MIT). Please see the
+`juggl\unique-hashids` is licenced under the MIT License (MIT). Please see the
 [license file](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/juggl/UniqueHashids.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/juggl/unique-hashids.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/juggl/UniqueHashids.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/juggl/unique-hashids.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/juggl/UniqueHashids
-[link-downloads]: https://packagist.org/packages/juggl/UniqueHashids
+[link-packagist]: https://packagist.org/packages/juggl/unique-hashids
+[link-downloads]: https://packagist.org/packages/juggl/unique-hashids
