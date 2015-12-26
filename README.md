@@ -44,7 +44,7 @@ class YourModel extends Model
 
 By default, this package assumes you have a `unique_id` column on you database
 to store the unique id in. Optionally, you may override this by setting a
-static property `$findBy` on your model:
+static property `$uniqueColumn` on your model:
 
 ```php
 namespace App;
@@ -56,7 +56,7 @@ class YourModel extends Model
 {
     use GeneratesUnique;
 
-    public static $findBy = 'my_column'; // this will assume 'unique_id' by default.
+    public static $uniqueColumn = 'my_column'; // this will assume 'unique_id' by default.
 
     // The rest of your model
 }

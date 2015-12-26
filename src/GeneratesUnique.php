@@ -14,18 +14,18 @@ trait GeneratesUnique
     public static function bootGeneratesUnique()
     {
         static::creating(function ($model) {
-            $model->{static::$findBy} = $model->getUnique();
+            $model->{static::$uniqueColumn} = $model->getUnique();
         });
     }
 
     /**
      * The name of the column to look in for the unique id. You may
-     * override this by setting a static $findBy property on the
+     * override this by setting a static $uniqueColumn property on the
      * model that uses this trait.
      *
      * @var string
      */
-    public static $findBy = "unique_id";
+    public static $uniqueColumn = "unique_id";
 
     /**
      * Fetch a new unique id.
@@ -51,7 +51,7 @@ trait GeneratesUnique
      */
     protected function uniqueExists($unique)
     {
-        return count(static::where(static::$findBy, $unique)->get()) > 0;
+        return count(static::where(static::$uniqueColumn, $unique)->get()) > 0;
     }
 
     /**
