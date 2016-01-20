@@ -1,3 +1,5 @@
+> THIS VERSION IS DEPRECATED! PLEASE USE [sven/unique-hashids](https://github.com/svenluijten/unique-hashids) INSTEAD.
+
 # Unique Hashids
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
